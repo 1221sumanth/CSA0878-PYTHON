@@ -1,0 +1,7 @@
+fruit_quantities = {
+    "Apple":5,
+    "Orange":10,
+    "Banana":12
+}
+for fruit, quantity in fruit_quantities.items():
+    print(fruit,":",quantity)

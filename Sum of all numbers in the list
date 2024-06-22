@@ -1,0 +1,4 @@
+a= input("Enter the numbers: ")
+list = [int(x) for x in a.split(',')]
+sum = sum(list)
+print("The sum of the numbers in the list is:",sum)

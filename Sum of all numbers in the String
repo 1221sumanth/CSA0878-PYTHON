@@ -1,9 +1,0 @@
-def sum_of_list(numbers):
-    total = 0
-    for number in numbers:
-        total += number
-    return total
-input_string = input("Enter the numbers separated by commas: ")
-numbers_list = [int(x) for x in input_string.split(',')]
-result = sum_of_list(numbers_list)
-print("The sum of the numbers in the list is:",result)

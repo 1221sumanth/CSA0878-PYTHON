@@ -1,0 +1,7 @@
+from itertools import permutations
+number = input("Enter a number: ")
+perm = permutations(number)
+unique_permutations = set([''.join(p) for p in perm])
+print("Permutations are:")
+for p in sorted(unique_permutations):
+    print(p)
